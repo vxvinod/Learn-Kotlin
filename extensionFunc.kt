@@ -1,6 +1,6 @@
 import kotlin.random.Random
 
-class Books(val name: String, val author: String, val year: Int, var pages: Int) 
+class Books(val name: String, val author: String, val year: Int, var pages: Int)
 
 fun Books.weight() : Double {return pages*1.5}
 
